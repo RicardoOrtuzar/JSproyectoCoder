@@ -37,4 +37,22 @@ while(agregaProd != "Terminé"){
     }
 }
 
+//ARRAY, FOR, IF
+let productos = ["Coca", "Azucar", "Arroz", "Leche"];
+let buscaProducto = prompt("Ingrese el producto que desea buscar"); 
+
+let encontrada = false;
+
+for (let i = 0; i < productos.length; i++) {
+    if (productos[i] === buscaProducto) {
+        encontrada = true;
+        alert("Se encontró el producto:"+ productos);
+        break; 
+    }
+}
+
+if (!encontrada) {
+    alert("El producto", buscaProducto, "no se encontró en la lista.");
+}
+
 

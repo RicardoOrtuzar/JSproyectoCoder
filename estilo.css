@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    height: 100%;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  body{
+    background-image: linear-gradient(to left, #979898, #5f4c7c);
+  }
