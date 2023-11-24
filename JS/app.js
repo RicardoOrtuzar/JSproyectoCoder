@@ -46,7 +46,7 @@ let encontrada = false;
 for (let i = 0; i < productos.length; i++) {
     if (productos[i] === buscaProducto) {
         encontrada = true;
-        alert("Se encontró el producto:"+ productos);
+        alert("Se encontró el producto:"+ buscaProducto);
         break; 
     }
 }
